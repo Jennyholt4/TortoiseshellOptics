@@ -1,0 +1,157 @@
+html {
+  font-size: 18px;
+  font-family: helvetica;
+  color: white;
+}
+
+body {
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  height: 30rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  display: inline-flex;
+  padding: 1rem 2rem 1rem 0;
+}
+
+header img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 2rem;
+}
+
+.flex-container {
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tagline {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  background-color: white;
+  color: black;
+  display: inline-flex;
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  margin-right: -2rem;
+}
+
+/* Main */
+.services {
+  display: inline-flex;
+  color: black;
+  justify-content: center;
+  width: 100%;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 5rem;
+  height: 8rem;
+}
+
+.service {
+  padding: 3rem 3rem;
+}
+
+img.exam {
+  width: 3.5rem;
+  height: auto;
+}
+
+img.fitting {
+  width: 5rem;
+  height: auto;
+}
+
+img.delivery {
+  width: 5rem;
+  height: auto;
+}
+
+/* Info */
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+.supporting .container{
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-bottom: 5rem;
+  width: 35%;
+  margin-right: 5%;
+}
+
+.title {
+  max-width: 10rem;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  color: black;
+  padding: 1rem 0;
+}
+
+/* Footer */
+
+footer .container {
+  background-color: azure;
+  color: black;
+}
+
+footer img {
+  padding: 4rem 1rem 4rem 4rem;
+  height: 1.5rem;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 400px){
+  .menu-compressed {
+    display: none;
+  }
+}
